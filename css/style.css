@@ -364,6 +364,11 @@
   font-weight: 400;
 }
 
+.plan-price__span:hover{
+    background-color: rgba(22, 19, 61, 1);
+    color: #FFF;
+}
+
 .free-trial-div {
   width: 1150px;
   height: 380px;
