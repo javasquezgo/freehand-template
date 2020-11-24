@@ -5,6 +5,7 @@
     padding: 0;
     margin: 0;
     font-family: "Roboto";
+    background: #E5E5E5;
 }
 
 .header{
@@ -145,6 +146,7 @@
 
 .experience{
     margin-left: 158px;
+    margin-right: 128px;
 }
 
 .experience__p{
@@ -209,6 +211,7 @@
 
 .features{
     padding-left: 158px;
+    margin-right: 128px;
 }
 
 .features__p{
@@ -257,6 +260,7 @@
     font-size: 36px;
     line-height: 48px;
     color: rgba(255, 255, 255, 1);
+    background-color: transparent;
     margin-top: 323px;
     margin-left: 48px;
     margin-right: 56px;
@@ -264,6 +268,7 @@
 
 .plan{
     margin-left: 158px;
+    margin-right: 128px;
 }
 
 .plan__h3{
@@ -278,4 +283,84 @@
     font-weight: 400;
     font-size: 18px;
     color: rgba(90, 113, 132, 1);
+}
+
+.plan-prices{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 84px;
+    margin-bottom: 210px;
+    margin-left: -60px;
+}
+
+.plan-price-blue{
+    width: 360px;
+    height: 436px;
+    border-top: 4px solid rgba(0, 127, 252, 1);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(0, 127, 252, 1);
+}
+
+.plan-price-green{
+    width: 360px;
+    height: 436px;
+    border-top: 4px solid rgba(82, 194, 157, 1);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(82, 194, 157, 1);
+}
+
+.plan-price-red{
+    width: 360px;
+    height: 436px;
+    border-top: 4px solid rgba(240, 77, 93, 1);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(240, 77, 93, 1);
+}
+
+.plan-price__p{
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(22, 19, 61, 1);
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.plan-price__h3{
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 32px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.plan-price__text{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(90, 113, 132, 1);
+    line-height: 28px;
+    margin-top: 5px;
+    margin-bottom: 64px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.plan-price__a{
+    text-decoration: none;
+}
+
+.plan-price__span{
+    padding: 10px 40px;
+    border: 2px solid rgba(22, 19, 61, 1);
+    border-radius: 50px;
+    color: rgba(22, 19, 61, 1);
+    background-color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
 }
