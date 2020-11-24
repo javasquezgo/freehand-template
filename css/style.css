@@ -77,8 +77,8 @@
 .header-information-div{
     display: flex;
     flex-direction: column;
-    margin-left: 122px;
-    margin-right: 101px;
+    margin-left: 158px;
+    margin-right: 128px;
 }
 
 .header-information-div__h1{
@@ -144,8 +144,7 @@
 }
 
 .experience{
-    border: 1px solid black;
-    margin-left: 120px;
+    margin-left: 158px;
 }
 
 .experience__p{
@@ -173,6 +172,7 @@
 .experience-options{
     display: flex;
     margin-top: 61px;
+    margin-bottom: 200px;
 }
 
 .experience-option{
@@ -205,4 +205,77 @@
     font-weight: 400;
     font-size: 16px;
     color: rgba(22, 19, 61, 1);
+}
+
+.features{
+    padding-left: 158px;
+}
+
+.features__p{
+    font-weight: 400;
+    font-size: 16px;
+    color:rgba(118, 144, 168, 1);
+    text-transform: uppercase;
+    margin-bottom: 17px;
+}
+
+.features__h3{
+    font-family: "Nunito Sans";
+    font-weight: 600;
+    font-size: 40px;
+    color: rgba(22, 19, 61, 1);
+    margin-bottom: 7px;
+}
+
+.features__lorem{
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(118, 144, 168, 1);
+    margin-bottom: 85px;
+}
+
+.features-background{
+    display: flex;
+    margin-bottom: 201px;
+}
+
+.feature-background-div1{
+    width: 553px;
+    height: 483px;
+    background-image: url("../image/back1.png");
+    margin-right: 49px;
+}
+
+.feature-background-div2{
+    width: 553px;
+    height: 483px;
+    background-image: url("../image/back2.png");
+}
+
+.feature-background-div__p{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 323px;
+    margin-left: 48px;
+    margin-right: 56px;
+}
+
+.plan{
+    margin-left: 158px;
+}
+
+.plan__h3{
+    font-family: "Nunito Sans";
+    font-weight: 600;
+    font-size: 40px;
+    color: rgba(22, 19, 61, 1);
+    margin-bottom: 7px;
+}
+
+.plan__p{
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(90, 113, 132, 1);
 }
